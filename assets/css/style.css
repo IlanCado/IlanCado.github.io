@@ -645,19 +645,22 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  width: 100%;
+  width: 13rem;
   color: #fff;
-  font-size: 28px;
+  font-size: 1.5rem;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(35, 153, 208, 0.898);
   transition: 0.3s;
+  border-radius: 0.5rem;
 }
 
 .portfolio .portfolio-wrap img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 15rem;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 1.5rem;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
