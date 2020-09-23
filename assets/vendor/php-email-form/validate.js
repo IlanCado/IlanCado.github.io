@@ -1,12 +1,7 @@
-/**
-* PHP Email Form Validation - v2.1
-* URL: https://bootstrapmade.com/php-email-form/
-* Author: BootstrapMade.com
-*/
 !(function($) {
   "use strict";
 
-  $('form.php-email-form').submit(function(e) {
+  $('js-email-form').submit(function(e) {
     e.preventDefault();
     
     var f = $(this).find('.form-group'),
@@ -110,20 +105,24 @@
     this_form.find('.loading').slideDown();
 
     if ( $(this).data('recaptcha-site-key') ) {
+      console.log("hello send mail");
       var recaptcha_site_key = $(this).data('recaptcha-site-key');
       grecaptcha.ready(function() {
-        grecaptcha.execute(recaptcha_site_key, {action: 'php_email_form_submit'}).then(function(token) {
-          php_email_form_submit(this_form,action,this_form.serialize() + '&recaptcha-response=' + token);
+        grecaptcha.execute(recaptcha_site_key, {action: 'js_email_form_submit'}).then(function(token) {
+          js_email(this_form,action,this_form.serialize() + '&recaptcha-response=' + token);
         });
       });
     } else {
-      php_email_form_submit(this_form,action,this_form.serialize());
+      js_email(this_form,action,this_form.serialize());
     }
     
     return true;
   });
 
-  function php_email_form_submit(this_form, action, data) {
+  function js_email(this_form, action, data) {
+    console.log(this_form);
+    console.log(action);
+    console.log(data);
     $.ajax({
       type: "POST",
       url: action,

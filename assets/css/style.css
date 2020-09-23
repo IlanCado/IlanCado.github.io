@@ -1118,3 +1118,10 @@ section {
   height: auto;
 }
 
+.info-text {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
