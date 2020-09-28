@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile img {
-  margin: 15px auto;
+  margin: 5rem auto 15px;
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
@@ -118,6 +118,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1199px) {
   #header {
     left: -300px;
+  }
+  #header .profile img {
+    margin: 15px auto;
   }
   #main {
     margin-left: 0;
@@ -1125,3 +1128,9 @@ section {
   justify-content: center;
 }
 
+.text-crop {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap; /* Don't forget this one */
+  text-overflow: ellipsis;
+}
