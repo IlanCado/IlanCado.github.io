@@ -690,11 +690,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.skills .icon-box {
   margin-bottom: 20px;
 }
 
-.services .icon {
+.skills .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -707,35 +707,35 @@ section {
   border: 1px solid #149ddd;
 }
 
-.services .icon i {
+.skills .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-.services .icon-box:hover .icon {
+.skills .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.skills .icon-box:hover .icon i {
   color: #149ddd;
 }
 
-.services .title {
+.skills .title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.skills .title a {
   color: #343a40;
 }
 
-.services .title a:hover {
+.skills .title a:hover {
   color: #149ddd;
 }
 
-.services .description {
+.skills .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
