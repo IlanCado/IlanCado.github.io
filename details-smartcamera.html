@@ -51,8 +51,8 @@
         <ul>
           <li><a href="index.html#hero"><i class="bx bx-home"></i> <span>Accueil</span></a></li>
           <li><a href="index.html#about"><i class="bx bx-user"></i> <span>A propos</span></a></li>
-          <li><a href="index.html#skills"><i class="bx bx-server"></i> Compétences et utilisations</a></li>
-          <li><a href="index.html#resume"><i class="bx bx-file-blank"></i> <span>Experience proffesionelle</span></a></li>
+          <li><a href="index.html#skills"><i class="bx bx-server"></i> Compétences</a></li>
+          <li><a href="index.html#resume"><i class="bx bx-file-blank"></i> <span>Experience professionnelle</span></a></li>
           <li class="active"><a href="index.html#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
           <li><a href="index.html#contact"><i class="bx bx-envelope"></i> Contact</a></li>
 
@@ -105,7 +105,7 @@
                 </li>
                 <li><strong>Equipe: </strong>3 étudiants d'ESIR2</li>
                 <li><strong>Date: </strong> oct 2017- mai 2018</li>
-                <li><strong>Project URL</strong>: <a class="text-crop" href="#">www.example.com</a></li>
+                <!--<li><strong>Project URL</strong>: <a class="text-crop" href="#">www.example.com</a></li>-->
               </ul>
             </div>
   
@@ -113,16 +113,16 @@
   
           <div class="portfolio-description">
             <h2>Projet de quatrième année d'ESIR <br>
-              Réalisation d'un système de caméra connecté</h2>
+              Réalisation d'un système de caméra connectée</h2>
             <p class="text-justify">
               Ce projet repose sur deux enjeux : proposer un service de vidéosurveillance à moindre coût et modulable. Le projet est basé sur des caméras Raspberry Pi. Des appareils clients tels que des ordinateurs (page Web) ou des smartphones sont capables d'accéder aux différents flux vidéo des caméras. Enfin, il doit être possible de rajouter de nouvelles cameras à une installation existante en "plug and play".
             </p>
             <p class="text-justify">
-              Voilà ce qu'il à été réalisé pour ce projet:
+              Voilà ce qui a été réalisé pour ce projet:
               <ul class="list-solution">
-                <li class="text-justify" >Au niveau de chaque caméra, nous avons donc utilisé une raspberry Pi avec un module caméra, pour la capture de la vidéo nous avons utilisé FFMPEG puis nous l'avons transcodé en HLS pour pouvoir le lire sur un navigateur. De plus nous pouvons programmer quand elles doivent se mettre en route, s'éteindre etc. Pour ajouter de nouvelle caméra facilement, nous avons crée une distribution en nous basans sur debian avec nos fichiers et avec CRON, nous lançons automatiquement tous nos script au démarrage. Ce qui nous fait des caméra plug and play. Pour toute la partie script, nous avons utilisé des fichiers bash et Nodejs.</li>
-                <li class="text-justify">Au niveau du serveur central, il à été réalisé en Nodejs, il discute avec le front-end et les caméras en webSocket la plus part du temps pour avoir des informations en temp réel. </li>
-                <li class="text-justify">Au niveau du front-end, nous avons décidé de faire une application web en Bootstrap, dans celle ci on peut voir les caméras présentent et le flux en direct, en ajouter ou en supprimer, gérer nos enregistrement et en programmer de nouveau.</li>
+                <li class="text-justify" >Au niveau de chaque caméra, nous avons donc utilisé une raspberry Pi avec un module caméra, pour la capture de la vidéo nous avons utilisé FFMPEG puis nous l'avons transcodé en HLS pour pouvoir le lire sur un navigateur. De plus nous pouvons programmer quand elles doivent se mettre en route, s'éteindre etc. Pour ajouter de nouvelles caméras facilement, nous avons créé une distribution en nous basant sur debian avec nos fichiers et avec CRON, nous lançons automatiquement tous nos script au démarrage. Ce qui nous fait des caméras plug and play. Pour toute la partie script, nous avons utilisé des fichiers bash et Nodejs.</li>
+                <li class="text-justify">Au niveau du serveur central, il a été réalisé en Nodejs, il discute avec le front-end et les caméras en webSocket la plupart du temps pour avoir des informations en temps réel. </li>
+                <li class="text-justify">Au niveau du front-end, nous avons décidé de faire une application web en Bootstrap, dans celle ci on peut voir les caméras présentes et le flux en direct, en ajouter ou en supprimer, gérer nos enregistrements et en programmer de nouveaux.</li>
               </ul>       
             </p>
           </div>
