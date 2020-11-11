@@ -1134,3 +1134,39 @@ section {
   white-space: nowrap; /* Don't forget this one */
   text-overflow: ellipsis;
 }
+
+.download-button {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.myButton {
+	background-color:#149ddd;
+	border-radius:1rem;
+	border:1px solid #149ddd;
+	color:#ffffff;
+	font-family:Arial;
+  font-size:1.2rem;
+  font-weight: 800;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1483dd;
+}
+.myButton:hover {
+	background-color:#147cdd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.dl-cv {
+  margin-bottom: 1.1rem;
+}
+
+@media (max-width: 375px) {
+  
+  .myButton {
+    font-size:1rem;
+  }
+}
