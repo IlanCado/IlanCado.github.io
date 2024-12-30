@@ -1,0 +1,31 @@
+projets boite : 
+
+Department et Notaires
+Intégration de calcul Excel
+VTGA
+
+
+Projets ecole : 
+
+Projet MVC
+Projet Winserv 2019
+Présentations outils kali Linux
+
+on pourrais rajouter une section dans all alternance
+
+
+liens reseaux : https://www.instagram.com/lalan.kdo/
+
+https://github.com/IlanCado
+
+https://www.linkedin.com/in/ilan-cado-5257a826a/
+
+
+<a href="https://www.instagram.com/lalan.kdo/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/IlanCado" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/ilan-cado-5257a826a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+L'intégration de VTGA en remplacement d'Attentum représentait un défi majeur pour le département, notamment en matière de gestion de données sensibles.
+ J'ai travaillé en collaboration avec les différents services pour décider de la reprise ou non des 11 000 dossiers actuellement gérés sous Attentum. 
+Cette responsabilité impliquait de prendre en compte les contraintes techniques, les risques de perte de données, et les exigences légales.
+ Cette expérience m'a permis de renforcer mes compétences en gestion de projets de migration de données et en collaboration interservices.
