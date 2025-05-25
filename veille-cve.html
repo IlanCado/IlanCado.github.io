@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veille Technologique - CVE & CVSS</title>
+  <link href="assets/img/profile-img.jpg" rel="icon" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle" />
+        <h1 class="text-light"><a href="index.html#hero">Ilan Cado</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/IlanCado" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/ilan-cado-5257a826a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html#hero"><i class="bx bx-home"></i> Accueil</a></li>
+          <li><a href="index.html#about"><i class="bx bx-user"></i> A propos</a></li>
+          <li><a href="index.html#skills"><i class="bx bx-server"></i> Compétences</a></li>
+          <li><a href="index.html#certifications"><i class="bx bxs-medal"></i> Certifications</a></li>
+          <li><a href="index.html#resume"><i class="bx bx-file-blank"></i> Expérience professionnelle</a></li>
+          <li><a href="index.html#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="index.html#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container mt-5">
+    <section class="veille-techno">
+
+      <div class="section-title">
+        <h2>🔍 Qu'est-ce que la veille technologique ?</h2>
+      </div>
+      <p>
+        La veille technologique est une démarche continue qui permet d’identifier les nouvelles tendances, innovations ou vulnérabilités dans un domaine spécifique, comme ici la cybersécurité. Elle repose sur la surveillance active d'informations stratégiques issues de sources diverses (médias spécialisés, blogs, bases de données, réseaux sociaux, etc.). Cette veille permet d’anticiper les risques, comprendre les évolutions du secteur, réagir rapidement face à de nouvelles menaces, et adapter ses pratiques professionnelles pour rester à jour.
+      </p>
+
+      <div class="section-title mt-5">
+        <h2>🎯 Mon sujet de veille</h2>
+      </div>
+      <p>
+        J’ai choisi de concentrer ma veille technologique sur les CVE (Common Vulnerabilities and Exposures) et leur notation CVSS (Common Vulnerability Scoring System), qui sont deux piliers de l’identification et de l’évaluation des failles de sécurité. Cela me permet de suivre les vulnérabilités les plus critiques affectant les systèmes, logiciels ou protocoles, et d’évaluer leur impact potentiel. En comprenant la gravité de chaque faille grâce au score CVSS, je peux prioriser les sujets à approfondir et les mises à jour de sécurité à appliquer. Ce sujet est directement en lien avec mes ambitions professionnelles en cybersécurité.
+      </p>
+
+      <div class="section-title mt-5">
+        <h2>📌 Définition des termes</h2>
+      </div>
+      <p>
+        <strong>CVE (Common Vulnerabilities and Exposures)</strong> : c’est un identifiant public unique attribué à une vulnérabilité ou exposition de sécurité connue. Il permet d’uniformiser la communication sur les failles à travers les outils, les systèmes de gestion de patchs, les blogs ou bases de données. Chaque CVE est associé à un descriptif court, un numéro (ex. CVE-2023-12345), et des références vers des détails techniques et des solutions.<br><br>
+        <strong>CVSS (Common Vulnerability Scoring System)</strong> : système de notation internationale qui attribue un score de gravité de 0 à 10 à une vulnérabilité en fonction de plusieurs critères comme la complexité d’exploitation, la nécessité d’un accès physique, ou les impacts sur la confidentialité, l’intégrité et la disponibilité. Un score de 0 signifie une faille non critique, tandis qu’un score entre 9.0 et 10 est considéré comme critique. Le système est divisé en trois groupes de métriques : base, temporelle et environnementale, pour évaluer l’impact global dans un contexte donné.
+      </p>
+
+      <div class="row mb-4">
+        <div class="col-md-6"><img src="assets/img/veille/cve.png" class="img-fluid" alt="Illustration CVE"></div>
+        <div class="col-md-6"><img src="assets/img/veille/cvss.png" class="img-fluid" alt="Illustration CVSS"></div>
+      </div>
+
+      <div class="section-title mt-5">
+        <h2>🛠️ Procédure de veille mise en place</h2>
+      </div>
+
+      <h4>📬 Google Alertes</h4>
+      <p>
+        Google Alertes permet de recevoir automatiquement par e-mail les derniers articles publiés sur un mot-clé. Par exemple, j’ai défini les alertes suivantes : <em>“CVE”, “vulnérabilité critique”, “exploit 0-day”</em>. Chaque alerte scanne le Web et m’envoie les résultats les plus récents chaque jour ou chaque semaine selon la configuration choisie. Cela me permet de rester informé sans avoir à effectuer une veille manuelle constante.
+      </p>
+      <div class="row mb-4">
+        <div class="col-md-6"><img src="assets/img/veille/google1.png" class="img-fluid" alt="Google Alertes Configuration" /></div>
+        <div class="col-md-6"><img src="assets/img/veille/google2.png" class="img-fluid" alt="Liste Alertes Google" /></div>
+      </div>
+
+      <h4>📰 Feedly</h4>
+      <p>
+        Feedly est un agrégateur de flux RSS qui me permet de regrouper automatiquement les publications de plusieurs sites spécialisés. J’ai créé un dossier “Veille Cybersécurité” dans lequel j’ai ajouté les flux de BleepingComputer, CVE Details, The Hacker News, etc. Chaque fois qu’un nouvel article est publié, je le vois immédiatement dans mon interface. Cela me permet de gagner du temps et d’avoir un aperçu centralisé de l’actualité.
+      </p>
+      <div class="row mb-4">
+        <div class="col-md-6"><img src="assets/img/veille/feedly1.png" class="img-fluid" alt="Google Alertes Configuration" /></div>
+        <div class="col-md-6"><img src="assets/img/veille/feedly2.png" class="img-fluid" alt="Liste Alertes Google" /></div>
+      </div>
+
+      <h4>🌐 Réseaux sociaux et communautés</h4>
+      <p>
+        Reddit (/r/netsec), LinkedIn, X (Twitter), ainsi que des canaux Telegram et serveurs Discord me permettent de suivre l’actualité directement partagée par la communauté. De nombreux chercheurs en sécurité publient en temps réel leurs découvertes ou relaient des alertes majeures. Cette veille collaborative est précieuse pour repérer rapidement les menaces émergentes ou les Proof of Concept (PoC).
+      </p>
+
+      <div class="section-title mt-5">
+        <h2>🧩 Sites spécialisés à consulter</h2>
+      </div>
+      <ul>
+        <li><a href="https://cve.mitre.org/" target="_blank">MITRE CVE</a> (Référentiel officiel mondial qui centralise tous les identifiants CVE. Chaque fiche inclut des infos synthétiques et des liens vers des analyses détaillées)</li>
+        <li><a href="https://nvd.nist.gov/" target="_blank">NVD (National Vulnerability Database)</a> (Gérée par le gouvernement américain, cette base enrichit les CVE avec des scores CVSS, des impacts, et des vecteurs d’attaque)</li>
+        <li><a href="https://owasp.org/" target="_blank">OWASP</a> (Organisation à but non lucratif qui publie des bonnes pratiques de développement sécurisé et des projets comme le Top 10 des vulnérabilités web)</li>
+        <li><a href="https://www.exploit-db.com/" target="_blank">Exploit-DB</a> (Base de données d’exploits publiquement accessibles, classés par type, par CVE ou par date de publication)</li>
+        <li><a href="https://packetstormsecurity.com/" target="_blank">Packet Storm Security</a> (Dépôt regroupant exploits, scripts, outils de tests et bulletins de sécurité classés par type d’attaque ou logiciel visé)</li>
+        <li><a href="https://securityaffairs.com/" target="_blank">Security Affairs</a> (Blog d’actualité cybersécurité tenu par Pierluigi Paganini, reconnu pour ses analyses détaillées sur les menaces et les campagnes APT)</li>
+      </ul>
+
+      <div class="col-12 text-center mt-4">
+  <a class="btn btn-info myButton" href="index.html#hero">
+    ⬅ Retour à l'accueil
+  </a>
+</div>
+
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; 2025 <strong><span>Ilan Cado</span></strong>. Tous droits réservés.
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
