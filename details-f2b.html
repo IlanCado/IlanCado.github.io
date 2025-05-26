@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - Sécurisation Fail2Ban</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/profile-img.jpg" rel="icon">
+  <link href="assets/img/profile-img.jpg" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700|Poppins:300,400,700" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="#hero">Ilan Cado</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/IlanCado" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/ilan-cado-5257a826a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html#hero"><i class="bx bx-home"></i> Accueil</a></li>
+          <li><a href="index.html#about"><i class="bx bx-user"></i> A propos</a></li>
+          <li><a href="index.html#skills"><i class="bx bx-server"></i> Compétences</a></li>
+          <li><a href="index.html#certifications"><i class="bx bxs-medal"></i> Certifications</a></li>
+          <li><a href="index.html#resume"><i class="bx bx-file-blank"></i> Expérience</a></li>
+          <li class="active"><a href="index.html#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="index.html#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="main">
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Service Fail2Ban (Nginx)</h2>
+          <ol>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li>Fail2Ban</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+        <div class="portfolio-details-container">
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="assets/img/portfolio/f2b/Image1.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/f2b/Image2.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/f2b/Image3.png" class="img-fluid" alt="">
+
+          </div>
+
+          <div class="portfolio-info">
+            <h3>Informations</h3>
+            <ul>
+              <li><strong>Technologie :</strong> Fail2Ban avec Nginx</li>
+              <li><strong>Objectif :</strong> Protection contre brute-force et bots</li>
+              <li><strong>Date :</strong> Mai 2025</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="portfolio-description">
+  <h2>Sécurisation avec Fail2Ban</h2>
+  <p>
+    <strong>Fail2Ban</strong> est un service de sécurité permettant de protéger un serveur contre les attaques par force brute ou comportements suspects.
+    Il surveille les fichiers journaux de services comme <strong>Nginx</strong>, SSH ou Apache à la recherche de motifs d'erreurs répétées, comme des tentatives de connexion échouées ou des accès à des pages inexistantes.
+  </p>
+
+  <p>
+    Lorsqu'une adresse IP génère trop d'erreurs en un temps réduit, Fail2Ban déclenche automatiquement un bannissement temporaire (via <code>iptables</code>) pour empêcher l'accès à cette IP pendant un délai défini. 
+    Ce comportement permet de limiter les attaques automatisées tout en laissant la main aux administrateurs pour débannir ou adapter les règles.
+  </p>
+
+  <p>
+    Fail2Ban repose sur deux éléments clés : les <strong>filtres</strong>, qui définissent les comportements suspects à détecter, et les <strong>jails</strong>, qui appliquent une action de bannissement lorsqu’un filtre est déclenché.
+  </p>
+
+  <p>
+    C’est un outil léger, flexible et très utilisé dans l’administration de serveurs Linux pour sécuriser les services exposés au réseau, notamment les serveurs web comme Nginx.
+  </p>
+</div>
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Ilan Cado</span></strong>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
